@@ -16,6 +16,7 @@ class FfmpegFull < Formula
   depends_on "texi2html" => :build
 
   depends_on "aom"
+  depends_on "fdk-aac"
   depends_on "fontconfig"
   depends_on "freetype"
   depends_on "frei0r"
